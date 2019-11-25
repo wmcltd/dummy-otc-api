@@ -1,0 +1,97 @@
+﻿Key,Location,Dept,Date,Capacity
+0,CT,Pad,11/15/19,200
+1,CT,Pad,11/16/19,250
+2,CT,Pad,11/17/19,300
+3,CT,Pad,11/18/19,350
+4,CT,Pad,11/19/19,400
+5,CT,Pad,11/20/19,2450
+6,CT,Pad,11/21/19,500
+7,CT,Pad,11/22/19,550
+8,CT,Pad,11/23/19,600
+9,CT,Pad,11/24/19,650
+10,CT,Pad,11/25/19,700
+11,CT,Pad,11/26/19,750
+12,CT,Pad,11/15/19,800
+13,PA,Pad,11/16/19,600
+14,PA,Pad,11/17/19,800
+15,PA,Pad,11/18/19,850
+16,PA,Pad,11/19/19,2000
+17,PA,Pad,11/20/19,2000
+18,PA,Pad,11/21/19,2000
+19,PA,Pad,11/22/19,2000
+20,PA,Pad,11/23/19,2000
+21,PA,Pad,11/24/19,2000
+22,PA,Pad,11/25/19,2000
+23,PA,Pad,11/26/19,2000
+24,CT,Silkscreen,11/15/19,300
+25,CT,Silkscreen,11/16/19,375
+26,CT,Silkscreen,11/17/19,450
+27,CT,Silkscreen,11/18/19,525
+28,CT,Silkscreen,11/19/19,600
+29,CT,Silkscreen,11/20/19,3675
+30,CT,Silkscreen,11/21/19,750
+31,CT,Silkscreen,11/22/19,825
+32,CT,Silkscreen,11/23/19,900
+33,CT,Silkscreen,11/24/19,975
+34,CT,Silkscreen,11/25/19,1050
+35,CT,Silkscreen,11/26/19,1125
+36,CT,Silkscreen,11/15/19,1200
+37,PA,Silkscreen,11/16/19,900
+38,PA,Silkscreen,11/17/19,1200
+39,PA,Silkscreen,11/18/19,1275
+40,PA,Silkscreen,11/19/19,3000
+41,PA,Silkscreen,11/20/19,3000
+42,PA,Silkscreen,11/21/19,3000
+43,PA,Silkscreen,11/22/19,3000
+44,PA,Silkscreen,11/23/19,3000
+45,PA,Silkscreen,11/24/19,3000
+46,PA,Silkscreen,11/25/19,3000
+47,PA,Silkscreen,11/26/19,3000
+48,CT,4CP Transfer,11/15/19,225
+49,CT,4CP Transfer,11/16/19,281
+50,CT,4CP Transfer,11/17/19,338
+51,CT,4CP Transfer,11/18/19,394
+52,CT,4CP Transfer,11/19/19,450
+53,CT,4CP Transfer,11/20/19,2756
+54,CT,4CP Transfer,11/21/19,563
+55,CT,4CP Transfer,11/22/19,619
+56,CT,4CP Transfer,11/23/19,675
+57,CT,4CP Transfer,11/24/19,731
+58,CT,4CP Transfer,11/25/19,788
+59,CT,4CP Transfer,11/26/19,844
+60,CT,4CP Transfer,11/15/19,900
+61,PA,4CP Transfer,11/16/19,675
+62,PA,4CP Transfer,11/17/19,900
+63,PA,4CP Transfer,11/18/19,956
+64,PA,4CP Transfer,11/19/19,2250
+65,PA,4CP Transfer,11/20/19,2250
+66,PA,4CP Transfer,11/21/19,2250
+67,PA,4CP Transfer,11/22/19,2250
+68,PA,4CP Transfer,11/23/19,2250
+69,PA,4CP Transfer,11/24/19,2250
+70,PA,4CP Transfer,11/25/19,2250
+71,PA,4CP Transfer,11/26/19,2250
+72,CT,Spot Color Transfer,11/15/19,405
+73,CT,Spot Color Transfer,11/16/19,506
+74,CT,Spot Color Transfer,11/17/19,608
+75,CT,Spot Color Transfer,11/18/19,709
+76,CT,Spot Color Transfer,11/19/19,810
+77,CT,Spot Color Transfer,11/20/19,4961
+78,CT,Spot Color Transfer,11/21/19,1013
+79,CT,Spot Color Transfer,11/22/19,1114
+80,CT,Spot Color Transfer,11/23/19,1215
+81,CT,Spot Color Transfer,11/24/19,1316
+82,CT,Spot Color Transfer,11/25/19,1418
+83,CT,Spot Color Transfer,11/26/19,1519
+84,CT,Spot Color Transfer,11/15/19,1620
+85,PA,Spot Color Transfer,11/16/19,1215
+86,PA,Spot Color Transfer,11/17/19,1620
+87,PA,Spot Color Transfer,11/18/19,1721
+88,PA,Spot Color Transfer,11/19/19,4050
+89,PA,Spot Color Transfer,11/20/19,4050
+90,PA,Spot Color Transfer,11/21/19,4050
+91,PA,Spot Color Transfer,11/22/19,4050
+92,PA,Spot Color Transfer,11/23/19,4050
+93,PA,Spot Color Transfer,11/24/19,4050
+94,PA,Spot Color Transfer,11/25/19,4050
+95,PA,Spot Color Transfer,11/26/19,4050

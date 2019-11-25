@@ -1,0 +1,18 @@
+{
+  "name": "dummyapi",
+  "version": "1.0.0",
+  "description": "testApi",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D.Arfine",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.8.2",
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.22",
+    "xml2json": "^0.11.2"
+  }
+}
