@@ -1,8 +1,15 @@
 var express = require("express");
 var moment = require("moment");
-var app = express();app.listen(3000, () => {
- console.log("Server running on port 3000");
-})
+var app = express();
+// app.listen(3000, () => {
+//  console.log("Server running on port 3000");
+// })
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+	port = 8000;
+}
+app.listen(port);
 
 /*
 * getDIT
@@ -219,9 +226,13 @@ app.get("/capacity/:dept/:qty/:locations/:colors/", (req, res, next) =>{
 			console.log('open-close')
 			console.log(capacity)
 			let capacityOptions = []
+			//Search each date returned, if more than 1 day from today and check capacity versus request
+			//return capacityOpions array with all possible dates within the next 4 weeks (arbitrary)
 			capacity.forEach(function (el) {
+				
 				if (
-					moment(new Date(el.Date)) > moment(new Date()) &&
+					moment(new Date(el.Date)) > moment(new Date()).add('days', 1) &&
+					moment(new Date(el.Date)) < moment(new Date(el.Date)).add('weeks', 1) &&
 					searchData.qty <= el.Capacity &&
 					searchData.dept == el.Dept
 				) {
@@ -297,7 +308,8 @@ app.get("/inventory/:item/:qty/", (req, res, next) =>{
 })
 
 /*
- * Dummy capacity calculation for initial development. Basic response only.
+ * OLD VERSION: 
+ *Dummy capacity calculation for initial development. Basic response only.
  * Actual API should reference the capacity formulas in NS and map methods to departments
  * Will need to calculate demand based on params supplied, and compare to capacity calendar
  * across locations/departments to determine best productio/ship date, as well as split orders 
