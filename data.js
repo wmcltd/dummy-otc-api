@@ -20,7 +20,7 @@ app.listen(port);
 */
 app.get("/getDIT/:from/:dest", (req, res, next) =>{
 	console.log('Run getDIT')
-	res.json(req.params.from)
+	res.json(req.params.to)
 	var Axios = require('axios');
     var parser = require('xml2json');
 	console.log('received params')
