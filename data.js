@@ -20,7 +20,7 @@ app.listen(port);
 */
 app.get("/getDIT/:from/:dest", (req, res, next) =>{
 	console.log('Run getDIT')
-	res.json(req.params.dest)
+	
 	var Axios = require('axios');
     var parser = require('xml2json');
 	console.log('received params')
@@ -132,7 +132,8 @@ app.get("/getDIT/:from/:dest", (req, res, next) =>{
         });
     }
     getDIT(req.params.from, req.params.dest).then(data => {
-        var dit = data.TimeInTransitResponse.TransitResponse.ServiceSummary;
+		var dit = data.TimeInTransitResponse.TransitResponse.ServiceSummary;
+		res.json(dit)
         dit.forEach(s => {
             if (s.Service.Code == 'GND') {
                 console.log(
