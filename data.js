@@ -10,6 +10,7 @@ let port = process.env.PORT;
 if (port == null || port == "") {
 	port = 8000;
 }
+
 app.listen(port);
 
 /*
@@ -18,6 +19,7 @@ app.listen(port);
 * from FOBLoc to DestLoc
 */
 app.get("/getDIT/:from/:dest", (req, res, next) =>{
+	console.log('Run getDIT')
 	var Axios = require('axios');
     var parser = require('xml2json');
 	console.log('received params')
