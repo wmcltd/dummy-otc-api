@@ -20,6 +20,7 @@ app.listen(port);
 */
 app.get("/getDIT/:from/:dest", (req, res, next) =>{
 	console.log('Run getDIT')
+	res.json(req.params.from)
 	var Axios = require('axios');
     var parser = require('xml2json');
 	console.log('received params')
@@ -31,6 +32,7 @@ app.get("/getDIT/:from/:dest", (req, res, next) =>{
 		console.log(destData)
 		var fromData = JSON.parse(fromData)
 		var destData = JSON.parse(destData)
+
 		// var fobs = [
         //     { fromZip: '06610', fromCity: 'Bridgeport', fromState: 'CT' },
         //     { fromZip: '29340', fromCity: 'Gaffney', fromState: 'SC' },
